@@ -1,0 +1,20 @@
+extends base.pug 
+
+block scripts 
+  script(src='/static/index.js')
+
+block style 
+    style 
+      include ../static/style.css
+      include ../static/style4.css
+block content 
+    div.container  
+      h3 Class Information:
+      div.box 
+       h2 Class Timing:
+        p you can choose any class Time becouse our session started from 10 AM to 6 PM.. 
+         div.class 1.First Class = 10 AM to 12 PM 
+         div.class 2.Second Class = 12 AM to 2 PM
+         div.class 3.Third Class = 2 PM to 4 PM 
+         div.class 4.Last Class = 4 PM to 6 PM
+         div.name ~SKDA

@@ -1,0 +1,56 @@
+doctype html 
+html 
+  head 
+    title S.K Dance Academy
+    style 
+      include ../static/style.css
+  body 
+    nav#navbar
+        ul 
+           div#logo 
+               img(src="/static/img/logo1.png")
+               | SKDA
+           li #[a(href="/") Home]
+           li #[a(href="/") About]
+           li #[a(href="/") Services]
+           li #[a(href="/") Class Info]
+           li #[a(href="/") Contact Us]
+
+    section#introSection 
+        div  Welcome To S.K. Dance Academy
+        div.small   Eat Sleep Dance Repeat
+
+    section#missionSection 
+        h2  Our Mission 
+        div.card 
+           h3 Dance Perfection
+           div.card-box 
+               div.card-img 
+                   img(src="/static/img/perf.png")
+               div.card-content 
+                   p At The Studio Dance Perfection, we live to dance and we love children. We are passionate about dance the personal growth of all our students. All dance studios are not created equal.
+        div.card 
+           h3 Dance The Way You Like
+           div.card-box 
+               div.card-img 
+                   img(src="/static/img/perf1.png")
+               div.card-content 
+                   p Dance is a form of expression that brings people together, allows them to be creative in new ways, and is a fantastic way to escape the stresses and cares of everyday life. 
+        div.card 
+           h3 Expert Teaching
+           div.card-box 
+               div.card-img 
+                   img(src="/static/img/perf2.png")
+               div.card-content 
+                   p Effective teaching of dance skills is informed by a variety of theoretical frameworks and individual teaching and learning styles.
+    section#sponsorsSection 
+        h2  Our Sponsors  
+        div#sponsors 
+           img(src="/static/img/apple.png", alt="Sponsor Image", class="spImage")
+           img(src="/static/img/lenovo.png", alt="Sponsor Image", class="spImage")
+           img(src="/static/img/micro.png", alt="Sponsor Image", class="spImage")
+           img(src="/static/img/skype.png", alt="Sponsor Image", class="spImage")
+    footer#footer 
+          |  Copyright © 2022 DynamicDanceAcademy.com | All right reserved      
+    script 
+      include ../static/script.js
